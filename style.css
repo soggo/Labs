@@ -67,7 +67,6 @@ section.Forest{
 section.water{
     background-color: rgba(0, 119, 190, 0.09);
 
-
 }
 
 .containerz{
@@ -93,8 +92,16 @@ section.water{
    color: #8bc34a;
   }
 
+  .nav-link.tree:hover{
+    color: darkslategray;
+  }
+
   .nav-link.ocean{
     color: #0077be;
+  }
+  
+  .nav-link.ocean:hover{
+    color: darkslategray;
   }
 
   .nav-link.book:hover{
