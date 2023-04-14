@@ -7,9 +7,12 @@ body{
 
 .hero{
     /* border: 1px solid black; */
-    margin-top: 3%;
+    margin-top: 1%;
 }
-
+hr {
+    margin:0px;
+    padding:0;
+}
 .navbar{
     /* border: 1px solid yellow; */
     font-size: x-large;
@@ -20,7 +23,18 @@ body{
     
 }
 
+.sub-header{
+    padding: 2% 0;
+    display: flex;
+    justify-content: center;
+}
 
+#EI{
+    color:  #0077be;
+}
+#EF{
+    color: #8bc34a;
+}
 .bigg{
     color: black;
     /* border: 1px solid black; */
@@ -28,11 +42,14 @@ body{
     font-size: 400%;
 }
 
-.lead{
+
+
+p.lead{
     color: black;
     margin-right: 25px;
     text-justify: distribute;
-    font-size: medium;
+    font-size: x-large;
+
 }
 
 .ocean{
@@ -42,13 +59,24 @@ body{
 .tree{
  color: #8bc34a;   
 }
+section.Forest{
+    background-color: rgba(145, 255, 0, 0.05);
+}
 
+section.water{
+    background-color: rgba(0, 119, 190, 0.09);
+
+
+}
 
 .containerz{
     padding: 0 2%;
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    gap: 2%;
+
     /* border: 3px solid green; */
 }
 
@@ -98,8 +126,23 @@ body{
         text-align: center;
         font-size: 3rem;
     }
-    p.lead.my{
+    p.lead{
         font-size: small;
     }
+
+    .containerz{
+        width: 100%;
+        /* border: 3px solid black; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+    
+      .fw-bold{
+        font-size: medium;
+      }
     
   }
+
+  
