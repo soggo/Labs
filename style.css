@@ -27,6 +27,8 @@ hr {
     padding: 2% 0;
     display: flex;
     justify-content: center;
+    font-size: xx-large;
+    font-weight: bolder;
 }
 
 #EI{
@@ -135,7 +137,8 @@ section.water{
         font-size: 3rem;
     }
     p.lead{
-        font-size: small;
+        font-size: 15px;
+        padding: 7%;
         
     }
 
@@ -146,8 +149,8 @@ section.water{
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        text-align: center;
-        text-justify: auto;
+        text-align: left;
+        /* text-justify: auto; */
       }
     
       .fw-bold{
