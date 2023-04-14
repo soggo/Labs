@@ -49,6 +49,7 @@ p.lead{
     margin-right: 25px;
     text-justify: distribute;
     font-size: x-large;
+    text-align: justify;
 
 }
 
@@ -136,6 +137,7 @@ section.water{
     p.lead{
         font-size: 15px;
         padding: 7%;
+        text-align: left;
         
     }
 
@@ -146,8 +148,7 @@ section.water{
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        text-align: left;
-        /* text-justify: auto; */
+       
       }
     
       .fw-bold{
