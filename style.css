@@ -27,7 +27,7 @@ hr {
     padding: 2% 0;
     display: flex;
     justify-content: center;
-    font-size: xx-large;
+    font-size: 40px;
     font-weight: bolder;
 }
 
@@ -43,8 +43,6 @@ hr {
     text-align: center;
     font-size: 400%;
 }
-
-
 
 p.lead{
     color: black;
@@ -121,7 +119,6 @@ section.water{
     }
     
     .d-sm-flex.align-items-center.justify-content-between.mobile{
-      
         display: flex;
         flex-direction: column;
         width: 100%;
